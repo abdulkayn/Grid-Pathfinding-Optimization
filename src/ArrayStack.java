@@ -1,7 +1,7 @@
 /**
  * The ArrayStack class implements a stack using an array
  * 
- * @author Abdulrehman
+ * @author Abdul Khan
  *
  * @param <T> a Generic is included in the header of the class to indicated that
  *            any type of object may be store in the stack and use the class

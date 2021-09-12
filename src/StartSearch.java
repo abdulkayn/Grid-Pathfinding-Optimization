@@ -5,7 +5,7 @@ import java.io.IOException;
  * The StartSearch class computes a path from Cupid to the targets, according to
  * specific restrictions.
  * 
- * @author Abdulrehman
+ * @author Abdul Khan
  *
  */
 
