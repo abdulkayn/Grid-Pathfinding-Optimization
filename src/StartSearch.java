@@ -86,7 +86,7 @@ public class StartSearch {
 				/**
 				 * The cell stack is not empty, the number of arrows is less the quiver size,
 				 * and the path length is less than the max path length, the program attempts to
-				 * compute a path by finding the next best neighbouring cell
+				 * compute a path by finding the next best neighboring cell
 				 */
 				while (!mapCellStack.isEmpty() && startSearch.numArrows > 0 && pathLength <= maxPathLength) {
 					MapCell current = mapCellStack.peek();
@@ -231,7 +231,7 @@ public class StartSearch {
 	}
 
 	/**
-	 * The nextCell method computes the best neighbouring cell, while adhering to
+	 * The nextCell method computes the best neighboring cell, while adhering to
 	 * the limitations and restrictions of each cell (ex. the arrow will prefer a
 	 * target cell or a horizontal path cell, etc)
 	 * 
@@ -311,7 +311,7 @@ public class StartSearch {
 			}
 
 			/**
-			 * If inertia is equal to 0, find the best neighbouring cell according to the
+			 * If inertia is equal to 0, find the best neighboring cell according to the
 			 * restrictions and assign a direction
 			 */
 			if (inertia == 0) {

@@ -23,7 +23,7 @@ public class ArrayStack<T> implements ArrayStackADT<T> {
 
 	/**
 	 * If an additional int argument is provided, the size of the array will be
-	 * intialized with the value of the argument
+	 * initialized with the value of the argument
 	 * 
 	 * @param initialCapacity the size of the array
 	 */
